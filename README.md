@@ -10,7 +10,6 @@ Screenshots:
 ![alt text](https://github.com/TobyWarren/TerraModified/blob/master/screenshots/huge_2024-02-04_21.54.35.jpg)
 ![alt text](https://github.com/TobyWarren/TerraModified/blob/master/screenshots/huge_2024-02-04_21.57.41.jpg)
 ![alt text](https://github.com/TobyWarren/TerraModified/blob/master/screenshots/huge_2024-02-04_21.59.35.jpg)
-![alt text](https://github.com/TobyWarren/TerraModified/blob/master/screenshots/huge_2024-02-04_22.01.29.jpg)
 ![alt text](https://github.com/TobyWarren/TerraModified/blob/master/screenshots/huge_2024-02-04_22.04.29.jpg)
 ![alt text](https://github.com/TobyWarren/TerraModified/blob/master/screenshots/huge_2024-02-04_22.05.24.jpg)
 ![alt text](https://github.com/TobyWarren/TerraModified/blob/master/screenshots/huge_2024-02-04_22.05.39.jpg)
