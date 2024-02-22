@@ -1,11 +1,11 @@
-id: AZALEA_BLOCK
+id: FLOWERING_AZALEA_BLOCK
 type: FEATURE
 
 distributor:
   type: SAMPLER
   sampler:
     type: POSITIVE_WHITE_NOISE
-    salt: 6969
+    salt: 4201
   threshold: 0.01
 
 locator:
@@ -25,4 +25,4 @@ locator:
 structures:
   distribution:
     type: WHITE_NOISE
-  structures: BLOCK:minecraft:azalea
+  structures: BLOCK:minecraft:flowering_azalea
