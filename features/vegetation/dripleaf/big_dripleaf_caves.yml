@@ -1,4 +1,4 @@
-id: BIG_DRIPLEAF
+id: BIG_DRIPLEAF_CAVES
 type: FEATURE
 
 distributor:
@@ -6,13 +6,13 @@ distributor:
   sampler:
     type: POSITIVE_WHITE_NOISE
     salt: 8893
-  threshold: 0.015
+  threshold: 0.02
 
 locator:
   type: PATTERN
   range:
-    min: ${meta.yml:ocean-level} - 1
-    max: $meta.yml:top-y
+    min: $meta.yml:bottom-y
+    max: ${meta.yml:ocean-level} + 3
   pattern:
     type: AND
     patterns:

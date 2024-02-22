@@ -1,11 +1,11 @@
-id: BIG_DRIPLEAF
+id: BIG_DRIPLEAF_PONDS
 type: FEATURE
 
 distributor:
   type: SAMPLER
   sampler:
     type: POSITIVE_WHITE_NOISE
-    salt: 8893
+    salt: 7336
   threshold: 0.015
 
 locator:
@@ -22,7 +22,6 @@ locator:
         offset: 1
       - type: MATCH_SET
         blocks:
-          - minecraft:air
           - minecraft:water
         offset: 0
       - type: MATCH_SET
