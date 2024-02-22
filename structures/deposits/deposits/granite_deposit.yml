@@ -1,5 +1,0 @@
-id: GRANITE_DEPOSIT
-type: ORE
-extends: ABSTRACT_DEPOSIT
-
-material: minecraft:granite

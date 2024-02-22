@@ -1,5 +1,0 @@
-id: DIRT_DEPOSIT
-type: ORE
-extends: ABSTRACT_DEPOSIT
-
-material: minecraft:dirt

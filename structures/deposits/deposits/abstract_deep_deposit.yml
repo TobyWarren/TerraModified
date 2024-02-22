@@ -1,8 +1,0 @@
-id: ABSTRACT_DEEP_DEPOSIT
-type: ORE
-abstract: true
-extends: ABSTRACT_DEPOSIT
-
-replace:
-  - minecraft:stone
-  - minecraft:deepslate

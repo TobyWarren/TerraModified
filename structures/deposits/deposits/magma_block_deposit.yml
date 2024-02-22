@@ -1,5 +1,0 @@
-id: MAGMA_BLOCK_DEPOSIT
-type: ORE
-extends: ABSTRACT_DEEP_DEPOSIT
-
-material: minecraft:magma_block
