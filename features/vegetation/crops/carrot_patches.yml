@@ -1,11 +1,11 @@
-id: BEETROOT_PATCHES
+id: CARROT_PATCHES
 type: FEATURE
 
 distributor:
   type: PADDED_GRID
   width: 40
   padding: 3
-  salt: 1241
+  salt: 1120
 
 locator:
   type: AND
@@ -24,4 +24,4 @@ locator:
 structures:
   distribution:
     type: CONSTANT
-  structures: beetroot_patch
+  structures: carrot_patch

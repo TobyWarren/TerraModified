@@ -1,11 +1,11 @@
-id: BEETROOT_PATCHES
+id: SWEET_BERRY_BUSH_PATCHES
 type: FEATURE
 
 distributor:
   type: PADDED_GRID
-  width: 40
-  padding: 3
-  salt: 1241
+  width: 30
+  padding: 2
+  salt: 1510
 
 locator:
   type: AND
@@ -24,4 +24,4 @@ locator:
 structures:
   distribution:
     type: CONSTANT
-  structures: beetroot_patch
+  structures: sweet_berry_bush_patch
