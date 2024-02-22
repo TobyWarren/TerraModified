@@ -1,4 +1,4 @@
-id: CAVE_GLOW_BERRIES
+id: LARGE_CEILING_VINES
 type: FEATURE
 
 # Adds leaf + vine segments that generate down from ceilings
@@ -13,8 +13,8 @@ distributor:
 locator:
   type: PATTERN
   range:
-    min: $meta.yml:bottom-y
-    max: ${meta.yml:ocean-level} + 3
+    min: ${meta.yml:ocean-level} + 19
+    max: ${meta.yml:ocean-level} + 119
   pattern:
     type: AND
     patterns:
@@ -26,4 +26,4 @@ locator:
 structures:
   distribution:
     type: CONSTANT
-  structures: glow_berries
+  structures: large_ceiling_vines

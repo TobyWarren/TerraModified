@@ -1,4 +1,4 @@
-id: CAVE_GLOW_BERRIES
+id: CROSSING_VINES
 type: FEATURE
 
 # Adds leaf + vine segments that generate down from ceilings
@@ -7,14 +7,14 @@ distributor:
   type: SAMPLER
   sampler:
     type: POSITIVE_WHITE_NOISE
-    salt: 79498
-  threshold: 0.025
+    salt: 1975
+  threshold: 0.05
 
 locator:
   type: PATTERN
   range:
-    min: $meta.yml:bottom-y
-    max: ${meta.yml:ocean-level} + 3
+    min: ${meta.yml:ocean-level} + 29
+    max: ${meta.yml:ocean-level} + 74
   pattern:
     type: AND
     patterns:
@@ -26,4 +26,4 @@ locator:
 structures:
   distribution:
     type: CONSTANT
-  structures: glow_berries
+  structures: crossing_vines
