@@ -1,4 +1,4 @@
-id: GRASS
+id: GRASS_DENSE
 type: FEATURE
 
 distributor:
@@ -6,7 +6,7 @@ distributor:
   sampler:
     type: POSITIVE_WHITE_NOISE
     salt: 7544
-  threshold: 0.125
+  threshold: 0.8
 
 locator:
   type: AND
@@ -26,5 +26,5 @@ structures:
   distribution:
     type: WHITE_NOISE
   structures:
-    - BLOCK:minecraft:short_grass: 6
+    - BLOCK:minecraft:short_grass: 7
     - tall_grass: 1

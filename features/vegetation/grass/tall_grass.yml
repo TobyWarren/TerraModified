@@ -1,12 +1,12 @@
-id: GRASS
+id: TALL_GRASS
 type: FEATURE
 
 distributor:
   type: SAMPLER
   sampler:
     type: POSITIVE_WHITE_NOISE
-    salt: 7544
-  threshold: 0.125
+    salt: 8888
+  threshold: 0.3
 
 locator:
   type: AND
@@ -21,10 +21,22 @@ locator:
         type: MATCH_SET
         blocks: $features/vegetation/meta.yml:plantable-blocks
         offset: -1
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH
+        block: minecraft:air
+        offset: 0
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH
+        block: minecraft:air
+        offset: 1
 
 structures:
   distribution:
     type: WHITE_NOISE
   structures:
-    - BLOCK:minecraft:short_grass: 6
-    - tall_grass: 1
+    - tall_grass: 8
+    - BLOCK:minecraft:short_grass: 1
