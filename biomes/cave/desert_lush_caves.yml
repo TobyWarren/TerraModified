@@ -1,9 +1,9 @@
-id: LUSH_CAVES
+id: DESERT_LUSH_CAVES
 type: BIOME
 extends:
   - CAVE
   - BASE
-color: $biomes/colors.yml:LUSH_CAVES
+color: $biomes/colors.yml:DESERT
 
 vanilla: minecraft:lush_caves
 
@@ -12,17 +12,18 @@ colors:
   fog: 0x477c1f
   water: 0x14A2C5
   water-fog: 0x14A2C5
-  grass: 0xa5c742 # Matched to moss block
-  foliage: 0xa5cd55 # Matched to azalea leaves
+  grass: 0xe8cf68
+  foliage: 0xe8cf68
 
   climate:
     precipitation: rain
-    temperature: 1.0
+    temperature: 2.0
     downfall: 1.0
 
 palette:
   - LUSH_CAVES: $meta.yml:top-y
-  - LUSH_CAVES_DEEPSLATE: $meta.yml:deepslate-top
+  - SAND: $meta.yml:deepslate-top
+  - SANDSTONE_SLANT: $meta.yml:top-y
   - << meta.yml:palette-bedrock
 
 tags:
@@ -35,11 +36,10 @@ features:
     - GREAT_AZALEA_TREES
   flora:
     - LARGE_LEAF_VINES_UNDERGROUND
-    - MOSS_CARPET
     - CAVE_GLOW_BERRIES
+    - CACTUS_SPARSE
     - CAVE_SPORE_BLOSSOMS
     - SMALL_DRIPLEAF_CAVES
+    - DEAD_BUSHES
     - BIG_DRIPLEAF_CAVES
-    - GRASS_CAVES
-    - AZALEA_BLOCK
     - FLOWERING_AZALEA_BLOCK
