@@ -1,11 +1,11 @@
-id: BALL_REEF
+id: DENDRIFORM_REEF
 type: FEATURE
 
 distributor:
   type: SAMPLER
   sampler:
     type: POSITIVE_WHITE_NOISE
-    salt: 6785
+    salt: 8526
   threshold: 0.6
 
 locator:
@@ -32,7 +32,7 @@ structures:
     sampler:
       type: OPEN_SIMPLEX_2
       frequency: 0.03
-    salt: 9652
+    salt: 2565
   structures:
-    - ball_coral_procedural: 1
+    - dendriform_coral_procedural: 1
     - blank: 8
