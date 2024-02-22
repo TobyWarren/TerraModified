@@ -1,18 +1,18 @@
-id: CALDERA_SEAGRASS
+id: DENSE_SEAGRASS
 type: FEATURE
 
 distributor:
   type: SAMPLER
   sampler:
     type: POSITIVE_WHITE_NOISE
-    salt: 5912
-  threshold: 0.5
+    salt: 5252
+  threshold: 0.8
 
 locator:
   type: PATTERN
   range:
-    min: ${meta.yml:ocean-level} + 3
-    max: $meta.yml:top-y
+    min: ${meta.yml:deepslate-top} - 7
+    max: ${meta.yml:ocean-level} + 1
   pattern:
     type: AND
     patterns:
@@ -31,11 +31,9 @@ structures:
       type: GAUSSIAN
     sampler:
       type: OPEN_SIMPLEX_2
-      frequency: 0.03
-    salt: 1239
+      frequency: 0.05
+    salt: 9834
   structures:
     - tall_seagrass: 1
     - BLOCK:minecraft:seagrass: 1
-    - blank: 4
-    - BLOCK:minecraft:seagrass: 1
-    - tall_seagrass: 1
+    - blank: 1

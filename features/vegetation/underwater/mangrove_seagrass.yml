@@ -1,18 +1,18 @@
-id: CALDERA_SEAGRASS
+id: MANGROVE_SEAGRASS
 type: FEATURE
 
 distributor:
   type: SAMPLER
   sampler:
     type: POSITIVE_WHITE_NOISE
-    salt: 5912
+    salt: 1247
   threshold: 0.5
 
 locator:
   type: PATTERN
   range:
-    min: ${meta.yml:ocean-level} + 3
-    max: $meta.yml:top-y
+    min: ${meta.yml:deepslate-top} - 7
+    max: ${meta.yml:ocean-level} + 1
   pattern:
     type: AND
     patterns:
@@ -32,10 +32,10 @@ structures:
     sampler:
       type: OPEN_SIMPLEX_2
       frequency: 0.03
-    salt: 1239
+    salt: 3696
   structures:
     - tall_seagrass: 1
     - BLOCK:minecraft:seagrass: 1
-    - blank: 4
+    - blank: 2
     - BLOCK:minecraft:seagrass: 1
     - tall_seagrass: 1
