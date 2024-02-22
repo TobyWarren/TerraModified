@@ -21,7 +21,6 @@ Screenshots:
 ![alt text](https://github.com/TobyWarren/TerraModified/blob/master/screenshots/huge_2024-02-22_21.07.11.jpg)
 ![alt text](https://github.com/TobyWarren/TerraModified/blob/master/screenshots/huge_2024-02-22_21.08.12.jpg)
 ![alt text](https://github.com/TobyWarren/TerraModified/blob/master/screenshots/huge_2024-02-22_21.09.26.jpg)
-![alt text](https://github.com/TobyWarren/TerraModified/blob/master/screenshots/huge_2024-02-22_21.09.32.jpg)
 ![alt text](https://github.com/TobyWarren/TerraModified/blob/master/screenshots/huge_2024-02-22_21.10.28.jpg)
 ![alt text](https://github.com/TobyWarren/TerraModified/blob/master/screenshots/huge_2024-02-22_21.11.24.jpg)
 ![alt text](https://github.com/TobyWarren/TerraModified/blob/master/screenshots/huge_2024-02-22_21.11.38.jpg)
