@@ -1,0 +1,35 @@
+id: MUSHROOM_FIELDS
+type: BIOME
+extends:
+  - ENVIRONMENT_LAND_UNIQUE_MUSHROOM
+  - EQ_PLAIN_PEAKS
+  - CARVING_OCEAN
+  - BASE
+color: $biomes/colors.yml:MUSHROOM_FIELDS
+
+vanilla: minecraft:mushroom_fields
+
+palette:
+  - MYCELIUM: $meta.yml:top-y
+  - SAND: ${meta.yml:ocean-level} + 1
+  - << meta.yml:palette-bottom
+
+slant:
+  - threshold: 0.6
+    palette:
+      - BLOCK:minecraft:light_gray_terracotta: $meta.yml:top-y
+      - SAND: ${meta.yml:ocean-level} + 1
+      - << meta.yml:palette-bottom
+  - threshold: 0.3
+    palette:
+      - BLOCK:minecraft:stone: $meta.yml:top-y
+      - SAND: ${meta.yml:ocean-level} + 1
+      - << meta.yml:palette-bottom
+
+features:
+  trees:
+    - PALM_TREES
+    - DENSE_PALM_TREES
+  flora:
+    - SUBTROPICAL_BUSHES
+    - JUNGLE_BUSHES
