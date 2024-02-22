@@ -1,4 +1,4 @@
-id: ALLIUM_PATCH
+id: ROSE_BUSH_PATCH
 type: FEATURE
 
 distributor:
@@ -7,13 +7,13 @@ distributor:
     - type: PADDED_GRID
       width: 4
       padding: 3
-      salt: 7115
+      salt: 6671
     - type: SAMPLER
       sampler:
         type: CELLULAR
         return: CellValue
         frequency: 0.06
-        salt: 6541
+        salt: 3652
       threshold: -0.7
 
 locator:
@@ -41,4 +41,4 @@ locator:
 structures:
   distribution:
     type: WHITE_NOISE
-  structures: BLOCK:minecraft:allium
+  structures: rose_bush
