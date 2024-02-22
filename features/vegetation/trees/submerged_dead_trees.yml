@@ -1,24 +1,23 @@
-id: ACACIA_TREES
+id: SUBMERGED_DEAD_TREES
 type: FEATURE
 
 distributor:
   type: PADDED_GRID
-  width: 17
-  padding: 3
-  salt: 1923
+  width: 80
+  padding: 2
+  salt: 1285
+
 
 locator:
   type: AND
   locators:
-    - type: TOP
+    - type: PATTERN
       range: &range
         min: ${meta.yml:ocean-level} + 3
         max: $meta.yml:top-y
-    - type: PATTERN
-      range: *range
       pattern:
         type: MATCH_SET
-        blocks: $features/vegetation/meta.yml:plantable-blocks
+        blocks: $features/vegetation/meta.yml:aquatic-plantable-blocks
         offset: -1
     - type: PATTERN
       range: *range
@@ -26,12 +25,10 @@ locator:
         type: MATCH_SET
         blocks:
           - minecraft:snow
-          - minecraft:air
+          - minecraft:water
         offset: 0
 
 structures:
   distribution:
-    type: WHITE_NOISE
-  structures:
-    - acacia_tree_procedural: 10
-    - large_flat_acacia_tree_procedural: 1
+    type: CONSTANT
+  structures: submerged_dead_tree_procedural

@@ -1,11 +1,11 @@
-id: ACACIA_TREES
+id: MESQUITE_TREES
 type: FEATURE
 
 distributor:
   type: PADDED_GRID
-  width: 17
-  padding: 3
-  salt: 1923
+  width: 20
+  padding: 2
+  salt: 7732
 
 locator:
   type: AND
@@ -31,7 +31,6 @@ locator:
 
 structures:
   distribution:
-    type: WHITE_NOISE
-  structures:
-    - acacia_tree_procedural: 10
-    - large_flat_acacia_tree_procedural: 1
+    type: CONSTANT
+  structures: mesquite_tree_procedural
+  

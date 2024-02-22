@@ -1,11 +1,11 @@
-id: ACACIA_TREES
+id: SPARSE_LARGE_MUSHROOMS
 type: FEATURE
 
 distributor:
   type: PADDED_GRID
-  width: 17
-  padding: 3
-  salt: 1923
+  width: 40
+  padding: 10
+  salt: 123454321
 
 locator:
   type: AND
@@ -32,6 +32,5 @@ locator:
 structures:
   distribution:
     type: WHITE_NOISE
-  structures:
-    - acacia_tree_procedural: 10
-    - large_flat_acacia_tree_procedural: 1
+    salt: 9512
+  structures: large_mixed_mushroom_procedural

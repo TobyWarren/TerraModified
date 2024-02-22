@@ -1,11 +1,11 @@
-id: ACACIA_TREES
+id: TEMPERATE_TREES
 type: FEATURE
 
 distributor:
   type: PADDED_GRID
-  width: 17
+  width: 10
   padding: 3
-  salt: 1923
+  salt: 9591
 
 locator:
   type: AND
@@ -31,7 +31,10 @@ locator:
 
 structures:
   distribution:
-    type: WHITE_NOISE
+    type: CELLULAR
+    return: CellValue
+    frequency: 0.03
   structures:
-    - acacia_tree_procedural: 10
-    - large_flat_acacia_tree_procedural: 1
+    - oak_tree_procedural: 12
+    - large_oak_tree_procedural: 1
+    - birch_tree_procedural: 2

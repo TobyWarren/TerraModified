@@ -1,11 +1,20 @@
-id: ACACIA_TREES
+id: EUCALYPTUS_TREES
 type: FEATURE
 
 distributor:
-  type: PADDED_GRID
-  width: 17
-  padding: 3
-  salt: 1923
+  type: AND
+  distributors:
+    - type: PADDED_GRID
+      width: 6
+      padding: 6
+      salt: 1991
+    - type: SAMPLER
+      sampler:
+        type: PROBABILITY
+        sampler:
+          type: OPEN_SIMPLEX_2
+          salt: 7847
+      threshold: 0.75
 
 locator:
   type: AND
@@ -13,7 +22,7 @@ locator:
     - type: TOP
       range: &range
         min: ${meta.yml:ocean-level} + 3
-        max: $meta.yml:top-y
+        max: ${meta.yml:ocean-level} + 119
     - type: PATTERN
       range: *range
       pattern:
@@ -32,6 +41,5 @@ locator:
 structures:
   distribution:
     type: WHITE_NOISE
-  structures:
-    - acacia_tree_procedural: 10
-    - large_flat_acacia_tree_procedural: 1
+    seed: 3666
+  structures: eucalyptus_tree_procedural

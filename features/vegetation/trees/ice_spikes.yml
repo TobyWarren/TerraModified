@@ -1,24 +1,26 @@
-id: ACACIA_TREES
+id: ICE_SPIKES
 type: FEATURE
 
 distributor:
   type: PADDED_GRID
-  width: 17
-  padding: 3
-  salt: 1923
+  width: 7
+  padding: 4
+  salt: 7234
 
 locator:
   type: AND
   locators:
     - type: TOP
       range: &range
-        min: ${meta.yml:ocean-level} + 3
+        min: ${meta.yml:ocean-level} - 1
         max: $meta.yml:top-y
     - type: PATTERN
       range: *range
       pattern:
         type: MATCH_SET
-        blocks: $features/vegetation/meta.yml:plantable-blocks
+        blocks:
+          - minecraft:ice
+          - minecraft:packed_ice
         offset: -1
     - type: PATTERN
       range: *range
@@ -28,10 +30,18 @@ locator:
           - minecraft:snow
           - minecraft:air
         offset: 0
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH_SET
+        blocks:
+          - minecraft:dirt
+        offset: -3
+
 
 structures:
   distribution:
-    type: WHITE_NOISE
+    type: CONSTANT
   structures:
-    - acacia_tree_procedural: 10
-    - large_flat_acacia_tree_procedural: 1
+    - ice_spike: 1
+  

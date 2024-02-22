@@ -1,11 +1,11 @@
-id: ACACIA_TREES
+id: DENSE_DARK_FOREST_TREES
 type: FEATURE
 
 distributor:
   type: PADDED_GRID
-  width: 17
+  width: 7
   padding: 3
-  salt: 1923
+  salt: 5932
 
 locator:
   type: AND
@@ -33,5 +33,5 @@ structures:
   distribution:
     type: WHITE_NOISE
   structures:
-    - acacia_tree_procedural: 10
-    - large_flat_acacia_tree_procedural: 1
+    - large_dark_oak_tree_procedural: 16
+    - dark_oak_tree_procedural: 6

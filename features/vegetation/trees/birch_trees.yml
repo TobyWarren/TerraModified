@@ -1,11 +1,11 @@
-id: ACACIA_TREES
+id: BIRCH_TREES
 type: FEATURE
 
 distributor:
   type: PADDED_GRID
-  width: 17
-  padding: 3
-  salt: 1923
+  width: 6
+  padding: 2
+  salt: 7234
 
 locator:
   type: AND
@@ -32,6 +32,9 @@ locator:
 structures:
   distribution:
     type: WHITE_NOISE
+    salt: 5011
   structures:
-    - acacia_tree_procedural: 10
-    - large_flat_acacia_tree_procedural: 1
+    - birch_tree_procedural: 20
+    - large_birch_tree_procedural: 1
+    - large_thin_birch_tree_procedural: 1
+  

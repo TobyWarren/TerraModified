@@ -1,11 +1,12 @@
-id: ACACIA_TREES
+id: MIXED_TREES
 type: FEATURE
 
 distributor:
-  type: PADDED_GRID
-  width: 17
-  padding: 3
-  salt: 1923
+  type: SAMPLER
+  sampler:
+    type: POSITIVE_WHITE_NOISE
+    salt: 1945
+  threshold: 0.01
 
 locator:
   type: AND
@@ -31,7 +32,11 @@ locator:
 
 structures:
   distribution:
-    type: WHITE_NOISE
+    type: CELLULAR
+    return: CellValue
+    frequency: 0.02
   structures:
-    - acacia_tree_procedural: 10
-    - large_flat_acacia_tree_procedural: 1
+    - blank: 15
+    - oak_tree_procedural: 8
+    - birch_tree_procedural: 2
+    - spruce_tree_procedural: 1
