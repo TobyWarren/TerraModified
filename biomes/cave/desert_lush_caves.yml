@@ -21,7 +21,7 @@ colors:
     downfall: 1.0
 
 palette:
-  - LUSH_CAVES: $meta.yml:top-y
+  - DESERT_LUSH_CAVES: $meta.yml:top-y
   - SAND: $meta.yml:deepslate-top
   - << meta.yml:palette-bedrock
 
