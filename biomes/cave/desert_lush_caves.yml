@@ -23,7 +23,6 @@ colors:
 palette:
   - LUSH_CAVES: $meta.yml:top-y
   - SAND: $meta.yml:deepslate-top
-  - SANDSTONE_SLANT: $meta.yml:top-y
   - << meta.yml:palette-bedrock
 
 tags:
