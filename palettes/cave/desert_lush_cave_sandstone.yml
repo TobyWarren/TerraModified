@@ -1,0 +1,24 @@
+id: DESERT_LUSH_CAVES_DEEPSLATE
+type: PALETTE
+
+layers:
+  - materials:
+      - minecraft:sandstone: 3
+      - minecraft:smooth_sandstone: 2
+      - minecraft:chiseled_sandstone: 1
+    layers: 2
+  - materials:
+      - minecraft:sandstone: 1
+    layers: 1
+
+sampler:
+  dimensions: 2
+  type: DOMAIN_WARP
+  amplitude: 5
+  warp:
+    type: OPEN_SIMPLEX_2
+    frequency: 0.2
+  sampler:
+    type: CELLULAR
+    return: CellValue
+    frequency: 0.10
