@@ -88,10 +88,10 @@ biome-distribution:
 # World Y levels
 top-y: 319
 ocean-level: 62
-deepslate-top: 7     # Y level where deepslate begins to replace stone
-deepslate-bottom: -7 # Y level where all stone is replaced by deepslate
-bedrock-top: -60     # Y level where deepslate starts to be replaced by bedrock
-bottom-y: -64
+deepslate-top: -1     # Y level where deepslate begins to replace stone
+deepslate-bottom: -10 # Y level where all stone is replaced by deepslate
+bedrock-top: -122     # Y level where deepslate starts to be replaced by bedrock
+bottom-y: -126
 
 palette-slant-generic:
   - BLOCK:minecraft:stone: $meta.yml:top-y
