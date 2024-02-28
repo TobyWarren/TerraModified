@@ -9,8 +9,9 @@ extrusions:
     to:
       - SELF: 6
       - LUSH_CAVES: 1
-      - DESERT_LUSH_CAVES: 2
+      - DESERT_LUSH_CAVES: 1
       - DRIPSTONE_CAVES: 1
+      - FROZEN_DRIPSTONE_CAVES: 1
     range:
       min: $meta.yml:deepslate-bottom
       max: ${meta.yml:ocean-level} - 13

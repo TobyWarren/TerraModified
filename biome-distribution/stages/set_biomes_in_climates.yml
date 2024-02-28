@@ -248,7 +248,7 @@ stages:
       
         # Orange hot desert
         hot-desert-flat-orange:
-          - ORANGE_DESERT: 5
+          - ORANGE_DESERT: 2
           - SALT_FLATS: 1
         hot-desert-orange:
           - ORANGE_DESERT: 1
@@ -257,7 +257,7 @@ stages:
 
         # White hot desert
         hot-desert-flat-white:
-          - DESERT: 4
+          - DESERT: 3
           - PEARLESCENT_DESERT: 1
           - SALT_FLATS: 1
         hot-desert-white:
