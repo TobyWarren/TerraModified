@@ -1,0 +1,41 @@
+id: FROZEN_DRIPSTONE_CAVES
+type: BIOME
+extends:
+  - CAVE
+  - BASE
+color: $biomes/colors.yml:FROZEN_BEACH
+
+vanilla: minecraft:dripstone_caves
+
+colors:
+  fog: 0xa88328
+  water: 0x6fcaba
+  water-fog: 0x90caba
+  sky: 0xf8ffba
+  grass: 0x3c783b
+  foliage: 0x3c783b
+
+  climate:
+    precipitation: rain
+    temperature: 1.0
+    downfall: 1.0
+
+palette:
+  - FROZEN_DRIPSTONE_CAVES: $meta.yml:top-y
+  - FROZEN_DRIPSTONE_CAVES_DEEPSLATE: $meta.yml:deepslate-top
+  - << meta.yml:palette-bedrock
+
+tags:
+  - USE_RIVER_TEMPERATE_MARSH
+
+features:
+  preprocessors:
+    - DRIPSTONE_COLUMNS
+    - FROZEN_DRIPSTONE_CAVE_POOLS
+    - FROZEN_CEILING_DRIPSTONE
+  landforms:
+    - DRIPSTONE_CAVES_LARGE_CEILING_DRIPSTONE
+    - FROZEN_DRIPSTONE_CAVES_BOULDER_PATCHES
+  flora:
+    - DRIPSTONE_CAVES_CEILING_POINTED_DRIPSTONE
+    - DRIPSTONE_CAVES_FLOOR_POINTED_DRIPSTONE
