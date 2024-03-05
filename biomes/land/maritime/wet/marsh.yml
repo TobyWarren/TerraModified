@@ -18,12 +18,14 @@ palette:
   - GRASS_MARSH: ${meta.yml:ocean-level} + 11
   - << meta.yml:palette-underwater
   - << meta.yml:palette-bottom
+  - << meta.yml:palette-deep
 
 slant:
   - threshold: 0.4
     palette:
       - << meta.yml:palette-slant-generic
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
 
 features:
   flora:

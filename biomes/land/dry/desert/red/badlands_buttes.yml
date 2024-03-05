@@ -17,6 +17,7 @@ palette:
   - ARID: $meta.yml:top-y
   - << meta.yml:palette-ocean-level-sand
   - << meta.yml:palette-bottom
+  - << meta.yml:palette-deep
 
 slant-depth: 20
 
@@ -25,19 +26,23 @@ slant:
     palette:
       - ARID: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0.6
     palette:
       - RED_SAND: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0.5
     palette:
       - BLOCK:minecraft:terracotta: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0.1
     palette:
       - BADLANDS_WAVY_STRATA: $meta.yml:top-y
       - TERRACOTTA_STRATA: ${meta.yml:ocean-level} + 27
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
 
 features:
   flora:

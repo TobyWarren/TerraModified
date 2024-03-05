@@ -10,3 +10,4 @@ tags:
 palette:
   - RED_SAND: $meta.yml:top-y
   - << meta.yml:palette-bottom
+  - << meta.yml:palette-deep

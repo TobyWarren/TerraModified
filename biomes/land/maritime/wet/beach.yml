@@ -22,12 +22,14 @@ colors:
 palette:
   - SAND: $meta.yml:top-y
   - << meta.yml:palette-bottom
+  - << meta.yml:palette-deep
 
 slant:
   - threshold: 0.4
     palette:
       - BLOCK:minecraft:stone: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
 
 features:
   landforms:

@@ -17,12 +17,14 @@ palette:
   - SNOW: $meta.yml:top-y
   - << meta.yml:palette-underwater
   - << meta.yml:palette-bottom
+  - << meta.yml:palette-deep
 
 slant:
   - threshold: 0.8
     palette:
       - BLOCK:minecraft:sand: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
 
 features:
   slabs:

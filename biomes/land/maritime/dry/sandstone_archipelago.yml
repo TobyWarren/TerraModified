@@ -24,16 +24,19 @@ palette:
   - SAND: ${meta.yml:ocean-level} + 3
   - MUDDY_BEACH: $meta.yml:ocean-level
   - << meta.yml:palette-bottom
+  - << meta.yml:palette-deep
 
 slant:
   - threshold: 0.45
     palette:
       - SAND: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0.4
     palette:
       - TERRACOTTA_SLANT: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
 
 features:
   flora:

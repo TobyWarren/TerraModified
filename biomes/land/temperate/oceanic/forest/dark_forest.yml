@@ -18,6 +18,7 @@ palette:
   - COARSE_DIRT: ${meta.yml:ocean-level} + 1
   - MUDDY_BEACH: $meta.yml:ocean-level
   - << meta.yml:palette-bottom
+  - << meta.yml:palette-deep
 
 slant:
   - threshold: 0.45
@@ -25,10 +26,12 @@ slant:
       - COARSE_DIRT: $meta.yml:top-y
       - SAND: ${meta.yml:ocean-level} + 3
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0.4
     palette:
       - BLOCK:minecraft:stone: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
 
 features:
   flora:

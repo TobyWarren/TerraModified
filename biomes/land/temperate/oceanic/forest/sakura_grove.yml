@@ -19,22 +19,27 @@ slant:
       - GRASS: $meta.yml:top-y
       - << meta.yml:palette-underwater
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0.55
     palette:
       - MOSS_STONE: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0.5
     palette:
       - MOSSY_COBBLESTONE_STONE: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0.45
     palette:
       - TUFF_STONE: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0.4
     palette:
       - ROCKY_SLANT: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
 
 features:
   flora:

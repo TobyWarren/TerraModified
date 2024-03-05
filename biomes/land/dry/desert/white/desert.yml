@@ -17,12 +17,14 @@ tags:
 palette:
   - SAND: $meta.yml:top-y
   - << meta.yml:palette-bottom
+  - << meta.yml:palette-deep
 
 slant:
   - threshold: 0.3
     palette:
       - BLOCK:minecraft:packed_mud: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
 
 features:
   flora:

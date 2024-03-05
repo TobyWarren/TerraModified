@@ -21,12 +21,14 @@ palette:
   - GRASS_SNOW_MIX: $meta.yml:top-y
   - << meta.yml:palette-underwater
   - << meta.yml:palette-bottom
+  - << meta.yml:palette-deep
 
 slant:
   - threshold: 0.4
     palette:
       - BLOCK:minecraft:stone: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
 
 features:
   flora:

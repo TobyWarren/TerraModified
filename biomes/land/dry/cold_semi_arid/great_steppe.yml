@@ -18,6 +18,7 @@ palette:
   - << meta.yml:palette-ocean-level-sand
   - << meta.yml:palette-underwater
   - << meta.yml:palette-bottom
+  - << meta.yml:palette-deep
 
 slant-depth: 5
 
@@ -27,14 +28,17 @@ slant:
       - PACKED_MUDDY_GRASS: $meta.yml:top-y
       - << meta.yml:palette-underwater
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0.4
     palette:
       - BLOCK:minecraft:packed_mud: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0.2
     palette:
       - BLOCK:minecraft:stone: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
 
 features:
   flora:

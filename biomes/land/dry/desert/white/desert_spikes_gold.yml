@@ -12,18 +12,22 @@ slant:
     palette:
       - BLOCK:minecraft:smooth_sandstone: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0.5
     palette:
       - BLOCK:minecraft:white_terracotta: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0.45
     palette:
       - BLOCK:minecraft:light_gray_terracotta: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0.4
     palette:
       - TERRACOTTA_STRATA_GOLD: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
 
 features:
   flora:

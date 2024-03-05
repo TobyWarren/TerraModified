@@ -16,17 +16,20 @@ palette:
   - MOSS_STONE: $meta.yml:top-y
   - SAND: ${meta.yml:ocean-level} + 9
   - << meta.yml:palette-bottom
+  - << meta.yml:palette-deep
 
 slant:
   - threshold: 0.45
     palette:
       - MOSS_STONE: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0.1
     palette:
       - BLOCK:minecraft:stone: $meta.yml:top-y
       - SAND: ${meta.yml:ocean-level} + 1
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
 
 features:
   slabs:

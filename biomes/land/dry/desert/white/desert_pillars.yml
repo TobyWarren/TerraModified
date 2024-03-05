@@ -17,6 +17,7 @@ tags:
 palette:
   - SAND: $meta.yml:top-y
   - << meta.yml:palette-bottom
+  - << meta.yml:palette-deep
 
 slant-depth: 50
 
@@ -25,10 +26,12 @@ slant:
     palette:
       - GRANITE_SLANT: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0.4
     palette:
       - TERRACOTTA_STRATA_VERTICAL: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
 
 features:
   flora:

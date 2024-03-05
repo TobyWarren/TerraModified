@@ -23,6 +23,7 @@ palette:
   - BLOCK:minecraft:stone: $meta.yml:top-y
   - SANDY_BEACH: ${meta.yml:ocean-level} + 14
   - << meta.yml:palette-bottom
+  - << meta.yml:palette-deep
 
 features:
   landforms:

@@ -24,6 +24,7 @@ palette:
   - << meta.yml:palette-ocean-level-sand
   - << meta.yml:palette-underwater
   - << meta.yml:palette-bottom
+  - << meta.yml:palette-deep
 
 slant:
   - threshold: 0.8
@@ -31,30 +32,37 @@ slant:
       - GRASS: $meta.yml:top-y
       - << meta.yml:palette-underwater
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0.6
     palette:
       - MOSS_TUFF: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0.3
     palette:
       - MOSS_STONE: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0.2
     palette:
       - BLOCK:minecraft:andesite: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0.1
     palette:
       - BLOCK:minecraft:stone: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0.05
     palette:
       - BLOCK:minecraft:tuff: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: -0.5
     palette:
       - BLOCK:minecraft:deepslate: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
 
 features:
   flora:

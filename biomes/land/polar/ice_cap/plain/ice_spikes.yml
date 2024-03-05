@@ -18,10 +18,12 @@ slant:
     palette:
       - BLOCK:minecraft:packed_ice: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
   - threshold: 0
     palette:
       - BLOCK:minecraft:ice: $meta.yml:top-y
       - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
 
 slant-depth: 6
 

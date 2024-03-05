@@ -21,6 +21,7 @@ palette:
   - SNOW: $meta.yml:top-y
   - SANDY_BEACH: $meta.yml:ocean-level
   - << meta.yml:palette-bottom
+  - << meta.yml:palette-deep
 
 features:
   slabs:
