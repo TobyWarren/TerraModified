@@ -15,6 +15,7 @@ colors:
 palette:
   - PRISMATIC_MICROBIAL_MAT: $meta.yml:top-y
   - << meta.yml:palette-bottom
+  - << meta.yml:palette-deep
 
 features:
   preprocessors:
