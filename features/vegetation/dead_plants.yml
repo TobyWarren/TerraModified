@@ -1,0 +1,38 @@
+id: DEAD_PLANTS
+type: FEATURE
+
+distributor:
+  type: SAMPLER
+  sampler:
+    type: POSITIVE_WHITE_NOISE
+    salt: 6485
+  threshold: 0.8
+
+locator:
+  type: PATTERN
+  range:
+    min: $meta.yml:deepslate-top
+    max: $meta.yml:top-y
+  pattern:
+    type: AND
+    patterns:
+      - type: MATCH
+        block: minecraft:air
+        offset: 0
+      - type: MATCH_SET
+        blocks: $features/vegetation/meta.yml:sculk-plantable-blocks
+        offset: -1
+
+structures:
+  distribution:
+    type: DOMAIN_WARP
+    amplitude: 3
+    warp:
+      type: GAUSSIAN
+    sampler:
+      type: OPEN_SIMPLEX_2
+      frequency: 0.04
+    salt: 6922
+  structures:
+    - dead_plants: 2
+    - blank: 6

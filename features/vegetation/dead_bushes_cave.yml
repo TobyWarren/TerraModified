@@ -11,8 +11,8 @@ distributor:
 locator:
   type: PATTERN
   range:
-    min: ${meta.yml:ocean-level} - 1
-    max: $meta.yml:top-y
+        min: $meta.yml:deepslate-top
+        max: $meta.yml:top-y
   pattern:
     type: OR
     patterns:
@@ -27,7 +27,7 @@ locator:
               - minecraft:dead_bush
             offset: 0
           - type: MATCH_SET
-            blocks: $features/vegetation/meta.yml:plantable-blocks
+            blocks: $features/vegetation/meta.yml:sugarcane-plantable-blocks
             offset: -1
       - type: AND
         patterns:
