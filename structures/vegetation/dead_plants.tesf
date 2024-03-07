@@ -1,0 +1,17 @@
+// Use random number to pick which coral to use
+num coralRand = randomInt(5);
+
+str blockID = "minecraft:air";
+if(coralRand == 0) blockID = "minecraft:sandstone";
+else if(coralRand == 1) blockID = "minecraft:bubble_coral[waterlogged=false]";
+else if(coralRand == 2) blockID = "minecraft:tube_coral[waterlogged=false]";
+else if(coralRand == 3) blockID = "minecraft:fire_coral[waterlogged=false]";
+else if(coralRand == 4) blockID = "minecraft:horn_coral[waterlogged=false]";
+else if(coralRand == 5) blockID = "minecraft:dead_tube_coral[waterlogged=false]";
+else if(coralRand == 6) blockID = "minecraft:dead_brain_coral[waterlogged=false]";
+else if(coralRand == 7) blockID = "minecraft:dead_bubble_coral[waterlogged=false]";
+else if(coralRand == 8) blockID = "minecraft:dead_fire_coral[waterlogged=false]";
+
+
+// Place coral
+block(0, 0, 0, blockID);
