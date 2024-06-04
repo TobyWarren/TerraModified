@@ -1,0 +1,28 @@
+id: ROCKY_SLANT_L
+type: PALETTE
+
+layers:
+  - materials:
+      - minecraft:cobblestone: 3
+      - minecraft:stone: 1
+      - minecraft:andesite: 2
+      - minecraft:diorite: 4
+    layers: 1
+    sampler:
+      type: EXPRESSION
+      expression: noise(x, y*2 + yOffset(x, z)*120, z)*3+1
+      samplers:
+        yOffset:
+          dimensions: 2
+          type: OPEN_SIMPLEX_2
+          salt: 2189
+          frequency: 0.005
+        noise:
+          dimensions: 3
+          type: FBM
+          octaves: 3
+          sampler:
+            type: CELLULAR
+            return: Distance2Div
+            jitter: 0.2
+            frequency: 0.030
