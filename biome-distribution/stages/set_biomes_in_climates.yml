@@ -10,23 +10,23 @@ stages:
       - ICE_SPIKES: 1
     to:
         ice-cap:
-          - SNOWY_MOUNTAINS: 1
+          - SNOWY_MOUNTAINS: 2
         ice-cap-highlands:
-          - SNOWY_MOUNTAINS: 1
+          - SNOWY_MOUNTAINS: 2
         
         tundra-flat:
-          - TUNDRA: 1
+          - TUNDRA: 2
         tundra:
-          - TUNDRA: 1
+          - TUNDRA: 2
         tundra-highlands:
-          - SNOWY_MOUNTAINS: 1
+          - SNOWY_MOUNTAINS: 2
         
         polar-coast-flat:
-          - FROZEN_BEACH: 1
+          - FROZEN_BEACH: 2
         polar-coast:
-          - SNOWY_SEA_CAVES: 1
+          - SNOWY_SEA_CAVES: 2
         polar-coast-highlands:
-          - SNOWY_SEA_CAVES: 1
+          - SNOWY_SEA_CAVES: 2
   
         polar-mesa:
           - COLD_DESERT_MESA: 1
@@ -47,70 +47,70 @@ stages:
           - FROZEN_DEEP_OCEAN: 1
   
         boreal-hot-flat:
-          - BIRCH_FOREST: 1
+          - BIRCH_FOREST: 2
         boreal-hot:
-          - BIRCH_FOREST: 1
+          - BIRCH_FOREST: 2
         boreal-hot-highlands:
-          - MOUNTAINS: 1
+          - MOUNTAINS: 2
         
         boreal-warm-flat:
-          - BIRCH_FOREST: 1
+          - BIRCH_FOREST: 2
         boreal-warm:
-          - DIVERSE_WOODLANDS: 1
-          - REDWOOD_FOREST: 1
-          - TAIGA: 5
+          - DIVERSE_WOODLANDS: 2
+          - REDWOOD_FOREST: 2
+          - TAIGA: 6
         boreal-warm-highlands:
-          - MOUNTAINS: 1
+          - MOUNTAINS: 2
 
         boreal-cold-flat:
-          - TAIGA: 1
+          - TAIGA: 2
         boreal-cold:
-          - TAIGA: 1
+          - TAIGA: 2
         boreal-cold-highlands:
-          - MOUNTAINS: 1
+          - MOUNTAINS: 2
       
         boreal-snowy-flat:
-          - SNOWY_MEADOW: 1
+          - SNOWY_MEADOW: 2
         boreal-snowy:
-          - SNOWY_MEADOW: 1
+          - SNOWY_MEADOW: 2
         boreal-snowy-highlands:
-          - SNOWY_MOUNTAINS: 1
+          - SNOWY_MOUNTAINS: 2
         
         boreal-hot-dry-flat:
-          - BIRCH_FOREST: 1
+          - BIRCH_FOREST: 2
         boreal-hot-dry:
-          - TAIGA: 1
+          - TAIGA: 2
         boreal-hot-dry-highlands:
-          - MOUNTAINS: 1
+          - MOUNTAINS: 2
 
         boreal-warm-dry-flat:
-          - TAIGA: 1
+          - TAIGA: 2
         boreal-warm-dry:
-          - TAIGA: 1
+          - TAIGA: 2
         boreal-warm-dry-highlands:
-          - MOUNTAINS: 1
+          - MOUNTAINS: 2
 
         boreal-cold-dry-flat:
-          - TAIGA: 1
+          - TAIGA: 2
         boreal-cold-dry:
-          - TAIGA: 1
+          - TAIGA: 2
         boreal-cold-dry-highlands:
-          - SNOWY_MOUNTAINS: 1
+          - SNOWY_MOUNTAINS: 2
 
         boreal-snowy-dry-flat:
-          - SNOWY_MEADOW: 1
+          - SNOWY_MEADOW: 2
         boreal-snowy-dry:
-          - SNOWY_MEADOW: 1
+          - SNOWY_MEADOW: 2
         boreal-snowy-dry-highlands:
-          - SNOWY_MOUNTAINS: 1
+          - SNOWY_MOUNTAINS: 2
 
         boreal-coast-flat:
-          - ROCKY_ARCHIPELAGO: 5
-          - SHALE_BEACH: 1
+          - ROCKY_ARCHIPELAGO: 6
+          - SHALE_BEACH: 2
         boreal-coast:
-          - ROCKY_SEA_CAVES: 1
+          - ROCKY_SEA_CAVES: 2
         boreal-coast-highlands:
-          - ROCKY_SEA_CAVES: 1
+          - ROCKY_SEA_CAVES: 2
   
         boreal-mesa:
           - BOREAL_MESA: 1
@@ -132,82 +132,82 @@ stages:
           - COLD_DEEP_OCEAN: 1
   
         temperate-hot-dry-flat:
-          - PALM_FOREST: 1
-          - CHAPARRAL: 1
-          - MOORLAND: 1
+          - PALM_FOREST: 2
+          - CHAPARRAL: 2
+          - MOORLAND: 2
         temperate-hot-dry:
-          - CHAPARRAL: 1
-          - MOORLAND: 1
+          - CHAPARRAL: 2
+          - MOORLAND: 2
         temperate-hot-dry-highlands:
-          - DRY_TEMPERATE_MOUNTAINS: 1
-          - DRY_TEMPERATE_WHITE_MOUNTAINS: 1
+          - DRY_TEMPERATE_MOUNTAINS: 2
+          - DRY_TEMPERATE_WHITE_MOUNTAINS: 2
 
         temperate-warm-dry-flat:
-          - PALM_FOREST: 1
-          - CHAPARRAL: 1
-          - MOORLAND: 1
+          - PALM_FOREST: 2
+          - CHAPARRAL: 2
+          - MOORLAND: 2
         temperate-warm-dry:
-          - CHAPARRAL: 1
-          - MOORLAND: 1
+          - CHAPARRAL: 2
+          - MOORLAND: 2
         temperate-warm-dry-highlands:
-          - DRY_TEMPERATE_MOUNTAINS: 1
-          - DRY_TEMPERATE_WHITE_MOUNTAINS: 1
+          - DRY_TEMPERATE_MOUNTAINS: 2
+          - DRY_TEMPERATE_WHITE_MOUNTAINS: 2
 
         temperate-hot-flat:
-          - GRASSLAND: 1
+          - GRASSLAND: 2
           - ALIEN_MARSH: 1
         temperate-hot:
-          - WOODED_BUTTES: 1
-          - TEMPERATE_OVERPASS: 1
+          - WOODED_BUTTES: 2
+          - TEMPERATE_OVERPASS: 2
         temperate-hot-highlands:
-          - HIGHLANDS: 1
-          - TEMPERATE_ALPHA_MOUNTAINS: 1
-          - TEMPERATE_MOUNTAINS: 1
+          - HIGHLANDS: 2
+          - TEMPERATE_ALPHA_MOUNTAINS: 2
+          - TEMPERATE_MOUNTAINS: 2
 
         temperate-warm-flat:
-          - FLOWERING_FOREST: 1
-          - EVERGREEN_FOREST: 1
-          - OAK_FOREST: 1
-          - DARK_FOREST: 1
-          - SAKURA_GROVE: 1
-          - WOODED_BUTTES: 1
+          - FLOWERING_FOREST: 2
+          - EVERGREEN_FOREST: 2
+          - OAK_FOREST: 2
+          - DARK_FOREST: 2
+          - SAKURA_GROVE: 2
+          - WOODED_BUTTES: 2
         temperate-warm:
-          - FLOWERING_FOREST: 1
-          - EVERGREEN_FOREST: 1
-          - OAK_FOREST: 1
-          - DARK_FOREST: 1
-          - SAKURA_GROVE: 1
-          - WOODED_BUTTES: 1
+          - FLOWERING_FOREST: 2
+          - EVERGREEN_FOREST: 2
+          - OAK_FOREST: 2
+          - DARK_FOREST: 2
+          - SAKURA_GROVE: 2
+          - WOODED_BUTTES: 2
         temperate-warm-highlands:
-          - HIGHLANDS: 1
-          - TEMPERATE_ALPHA_MOUNTAINS: 1
-          - TEMPERATE_MOUNTAINS: 1
+          - HIGHLANDS: 2
+          - TEMPERATE_ALPHA_MOUNTAINS: 2
+          - TEMPERATE_MOUNTAINS: 2
 
         temperate-cold-flat:
-          - FLOWERING_FOREST: 1
-          - EVERGREEN_FOREST: 1
-          - OAK_FOREST: 1
-          - DARK_FOREST: 1
-          - SAKURA_GROVE: 1
-          - WOODED_BUTTES: 1
+          - FLOWERING_FOREST: 2
+          - EVERGREEN_FOREST: 2
+          - OAK_FOREST: 2
+          - DARK_FOREST: 2
+          - SAKURA_GROVE: 2
+          - WOODED_BUTTES: 2
         temperate-cold:
-          - FLOWERING_FOREST: 1
-          - EVERGREEN_FOREST: 1
-          - OAK_FOREST: 1
-          - DARK_FOREST: 1
-          - SAKURA_GROVE: 1
-          - WOODED_BUTTES: 1
+          - FLOWERING_FOREST: 2
+          - EVERGREEN_FOREST: 2
+          - OAK_FOREST: 2
+          - DARK_FOREST: 2
+          - SAKURA_GROVE: 2
+          - WOODED_BUTTES: 2
         temperate-cold-highlands:
-          - HIGHLANDS: 1
-          - TEMPERATE_ALPHA_MOUNTAINS: 1
-          - TEMPERATE_MOUNTAINS: 1
+          - HIGHLANDS: 2
+          - TEMPERATE_ALPHA_MOUNTAINS: 2
+          - TEMPERATE_MOUNTAINS: 2
 
         temperate-coast-flat:
-          - BEACH: 1
+          - BEACH: 2
         temperate-coast:
-          - TEMPERATE_SEA_ARCHES: 1
+          - TEMPERATE_SEA_ARCHES: 2
         temperate-coast-highlands:
-          - TEMPERATE_SEA_ARCHES: 1
+          - TEMPERATE_SEA_ARCHES: 2
 
         temperate-mesa:
           - TEMPERATE_MESA: 1
@@ -260,12 +260,14 @@ stages:
           - DESERT: 3
           - PEARLESCENT_DESERT: 1
           - SALT_FLATS: 1
+          - DESERT_SAVANNA_OVERHANGS: 2
         hot-desert-white:
           - DESERT: 1
           - DESERT_PILLARS: 1
           - DESERT_SPIKES: 1
           - DESERT_SPIKES_GOLD: 1
           - DESERT_TERRACES: 1
+          - JUNGLE_DESERT_TERRACES: 2
           - ROCKY_DESERT: 1
           - PEARLESCENT_DESERT: 1
         hot-desert-highlands-white:
@@ -274,6 +276,7 @@ stages:
           - DESERT_SPIKES_GOLD: 1
           - DESERT_TERRACES: 1
           - ROCKY_DESERT: 1
+          - JUNGLE_DESERT_TERRACES: 2
           - PEARLESCENT_DESERT: 1
 
         # Red hot steppe
@@ -295,6 +298,7 @@ stages:
         # White hot steppe
         hot-steppe-flat-white:
           - XERIC_SHRUBLAND: 1
+          - DESERT_SAVANNA_OVERHANGS: 2
         hot-steppe-white:
           - XERIC_SHRUBLAND: 1
         hot-steppe-highlands-white:
@@ -349,35 +353,35 @@ stages:
           - todo: 1
 
         tropical-rainforest-flat:
-          - BAMBOO_JUNGLE: 1
-          - JUNGLE: 1
-          - ROCKY_JUNGLE: 1
+          - BAMBOO_JUNGLE: 2
+          - JUNGLE: 2
+          - ROCKY_JUNGLE: 2
         tropical-rainforest:
-          - BAMBOO_JUNGLE: 1
-          - BAMBOO_PONDS: 1
-          - JUNGLE: 1
-          - ROCKY_JUNGLE: 1
+          - BAMBOO_JUNGLE: 2
+          - BAMBOO_PONDS: 2
+          - JUNGLE: 2
+          - ROCKY_JUNGLE: 2
         tropical-rainforest-highlands:
-          - OVERGROWN_CLIFFS: 1
+          - OVERGROWN_CLIFFS: 2
 
         tropical-monsoon-flat:
-          - DRY_FOREST: 1
-          - MONSOON_FOREST: 1
+          - DRY_FOREST: 2
+          - MONSOON_FOREST: 2
         tropical-monsoon:
-          - DRY_FOREST: 1
-          - MONSOON_FOREST: 1
+          - DRY_FOREST: 2
+          - MONSOON_FOREST: 2
         tropical-monsoon-highlands:
-          - DRY_FOREST: 1
-          - MONSOON_FOREST: 1
+          - DRY_FOREST: 2
+          - MONSOON_FOREST: 2
 
         tropical-savanna-dry-flat:
-          - GRASS_SAVANNA: 1
-          - SAVANNA: 1
+          - GRASS_SAVANNA: 2
+          - SAVANNA: 2
         tropical-savanna-dry:
-          - GRASS_SAVANNA: 1
-          - SAVANNA: 1
+          - GRASS_SAVANNA: 2
+          - SAVANNA: 2
         tropical-savanna-dry-highlands:
-          - SAVANNA_OVERHANGS: 1
+          - SAVANNA_OVERHANGS: 2
 
         tropical-savanna-wet-flat:
           - WET_SAVANNA: 1
@@ -385,15 +389,16 @@ stages:
           - WET_SAVANNA: 1
         tropical-savanna-wet-highlands:
           - SAVANNA_OVERHANGS: 1
+          - DESERT_SAVANNA_OVERHANGS: 2
 
         tropical-coast-flat:
-          - PALM_BEACH: 1
-          - MANGROVE_SWAMP: 1
+          - PALM_BEACH: 2
+          - MANGROVE_SWAMP: 2
         tropical-coast: LUSH_SEA_CAVES
         tropical-coast-highlands: LUSH_SEA_CAVES
 
         tropical-mesa:
-          - TROPICAL_MESA: 1
+          - TROPICAL_MESA: 2
         
         tropical-crater-lake:
           - todo: 1
