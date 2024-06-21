@@ -1,0 +1,65 @@
+id: DESERT_SAVANNA_OVERHANGS
+type: BIOME
+extends:
+  - COLOR_XERIC
+  - ENVIRONMENT_LAND_DRY_DESERT
+  - EQ_GLOBAL_ERODED_PILLARS
+  - CARVING_OCEAN
+  - BASE
+color: $biomes/colors.yml:DESERT_SAVANNA_OVERHANGS
+
+vanilla: minecraft:desert
+
+tags:
+  - LAND_CAVES
+  - USE_RIVER
+
+colors:
+  grass: 0xa1c342
+
+palette:
+  - SAND: $meta.yml:top-y
+  - << meta.yml:palette-ocean-level-sand
+  - << meta.yml:palette-underwater
+  - << meta.yml:palette-bottom
+  - << meta.yml:palette-deep
+
+slant:
+  - threshold: 1
+    palette:
+      - SAND: $meta.yml:top-y
+      - << meta.yml:palette-underwater
+      - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
+  - threshold: 0.76
+    palette:
+      - MOSS_STONE: $meta.yml:top-y
+      - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
+  - threshold: 0.45
+    palette:
+      - MOSSY_COBBLESTONE_STONE: $meta.yml:top-y
+      - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
+  - threshold: 0.36
+    palette:
+      - ROCKY_SLANT_L: $meta.yml:top-y
+      - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
+  - threshold: 0.4
+    palette:
+      - BLOCK:minecraft:stone: $meta.yml:top-y
+      - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
+
+features:
+  flora:
+    - CACTUS_SPARSE
+    - DEAD_BUSHES
+    - DEAD_PLANTS
+    - DEAD_CORAL
+    - OAK_BUSHES
+  trees:
+    - ACACIA_TREES
+  landforms:
+    - SMALL_SANDSTONE_BOULDER_PATCHES
