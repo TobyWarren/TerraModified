@@ -1,0 +1,45 @@
+id: JUNGLE_DESERT_TERRACES
+type: BIOME
+extends:
+  - ENVIRONMENT_LAND_DRY_DESERT
+  - EQ_STRATIFIED_LAND
+  - CARVING_LAND
+  - BASE
+color: $biomes/colors.yml:JUNGLE_DESERT_TERRACES
+
+vanilla: minecraft:desert
+
+tags:
+  - LAND_CAVES
+  - USE_DESERT_RIVER
+
+colors:
+  grass: 0xc7985d
+
+palette:
+  - GRASS_MOSSY: $meta.yml:top-y
+  - << meta.yml:palette-bottom
+  - << meta.yml:palette-deep
+
+slant:
+  - threshold: 0.3
+    palette:
+      - BLOCK:minecraft:smooth_sandstone: $meta.yml:top-y
+      - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
+  - threshold: 0.65
+    palette:
+      - BLOCK:minecraft:sandstone: $meta.yml:top-y
+      - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
+
+features:
+  landforms:
+    - SMALL_SANDSTONE_BOULDER_PATCHES
+  flora:
+    - GRASS
+    - DEAD_BUSHES
+  trees:
+    - OAK_BUSHES
+    - SUBTROPICAL_BUSHES
+    - JUNGLE_TREES
