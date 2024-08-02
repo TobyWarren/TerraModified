@@ -14,6 +14,14 @@ colors:
   water: 0x1e97f2
   water-fog: 0x1e97f2
 
+palette:
+  - COARSE_DIRT: $meta.yml:top-y
+  - SAND: 64
+  - MUDDY_BEACH: 61
+  - << meta.yml:palette-underwater
+  - << meta.yml:palette-bottom
+  - << meta.yml:palette-deep
+
 slant:
   - threshold: 0.8
     palette:
