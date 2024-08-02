@@ -14,18 +14,22 @@ colors:
   water: 0x1e97f2
   water-fog: 0x1e97f2
 
-palette:
-  - GRASS: 319
-  - SAND: 64
-  - MUDDY_BEACH: 61
-  - << meta.yml:palette-bottom
-
 slant:
-  - threshold: 3.5
+  - threshold: 0.8
     palette:
-      - GRANITE_SLANT: 319
-      - << meta.yml:palette-ocean-level-sand
+      - GRASS: $meta.yml:top-y
       - << meta.yml:palette-underwater
+      - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
+  - threshold: 0.45
+    palette:
+      - COARSE_DIRT: $meta.yml:top-y
+      - << meta.yml:palette-underwater
+      - << meta.yml:palette-bottom
+      - << meta.yml:palette-deep
+  - threshold: 0.4
+    palette:
+      - << meta.yml:palette-slant-generic
       - << meta.yml:palette-bottom
       - << meta.yml:palette-deep
 
