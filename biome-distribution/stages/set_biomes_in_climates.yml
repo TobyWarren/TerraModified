@@ -58,9 +58,12 @@ stages:
         boreal-warm:
           - DIVERSE_WOODLANDS: 2
           - REDWOOD_FOREST: 2
+          - AUTUMNAL_FOREST: 3
           - TAIGA: 6
         boreal-warm-highlands:
           - MOUNTAINS: 2
+          - AUTUMNAL_FOREST_HILLS: 3
+          - FLOWERING_AUTUMNAL_FOREST_HILLS: 1
 
         boreal-cold-flat:
           - TAIGA: 2
@@ -156,6 +159,7 @@ stages:
         temperate-hot-flat:
           - GRASSLAND: 2
           - ALIEN_MARSH: 1
+          - AUTUMNAL_FLATS: 2
         temperate-hot:
           - WOODED_BUTTES: 2
           - TEMPERATE_OVERPASS: 2
