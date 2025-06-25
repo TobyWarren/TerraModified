@@ -1,0 +1,32 @@
+id: GLOW_LICHEN_TENDRIL
+type: FEATURE
+
+# Adds 'webs' of glow lichen to surface blocks
+
+distributor:
+  type: "YES"
+
+locator:
+  type: AND
+  locators:
+    - type: PATTERN
+      range: &range
+        min: ${meta.yml:ocean-level} + 1
+        max: $meta.yml:top-y
+      pattern:
+        type: MATCH_AIR
+        offset: 0
+
+structures:
+  distribution:
+    dimensions: 3
+    type: LINEAR
+    min: -1
+    max: 0
+    sampler:
+      type: CELLULAR
+      return: Distance2Div
+      frequency: 0.1
+  structures:
+    - blank: 4
+    - glow_lichen_solid: 1
