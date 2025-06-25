@@ -33,7 +33,6 @@ slant:
 features:
   flora:
     - GRASS
-    - LEAF_LITTER
   trees:
     - SPARSE_LARGE_MUSHROOMS
     - DENSE_DARK_FOREST_TREES
