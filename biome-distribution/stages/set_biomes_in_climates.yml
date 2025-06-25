@@ -234,7 +234,6 @@ stages:
           - FLOWERING_FOREST: 1
           - BROADLEAF_FOREST: 2
           - DARK_FOREST: 1
-          - SAKURA_GROVE: 1
           - WOODED_BUTTES: 1
           - ROCKY_GRASSLAND: 1
           - OAK_FOREST: 1
@@ -243,7 +242,6 @@ stages:
           - FLOWERING_FOREST: 1
           - BROADLEAF_FOREST: 1
           - DARK_FOREST: 1
-          - SAKURA_GROVE: 1
           - WOODED_BUTTES: 1
         temperate-warm-highlands:
           - HIGHLANDS: 1
@@ -259,7 +257,6 @@ stages:
           - SUNFLOWER_PRAIRIE: 1
           - BROADLEAF_FOREST: 2
           - DARK_FOREST: 2
-          - SAKURA_GROVE: 2
           - WOODED_BUTTES: 2
         temperate-cold:
           - OAK_FOREST: 1
@@ -267,7 +264,6 @@ stages:
           - FLOWERING_FOREST: 1
           - BROADLEAF_FOREST: 1
           - DARK_FOREST: 1
-          - SAKURA_GROVE: 1
           - WOODED_BUTTES: 1
         temperate-cold-highlands:
           - HIGHLANDS: 1
