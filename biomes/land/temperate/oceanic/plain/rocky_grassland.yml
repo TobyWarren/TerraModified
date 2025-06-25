@@ -36,7 +36,6 @@ features:
     - BOULDERS
   flora:
     - GRASS
-    - DRY_GRASS
     - POPPY_PATCH
     - DANDELION_PATCH
     - BUSH

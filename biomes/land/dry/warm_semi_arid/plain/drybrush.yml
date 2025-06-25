@@ -43,7 +43,6 @@ features:
     - SMALL_BOULDER_PATCHES
   flora:
     - TALL_GRASS
-    - DENSE_DRY_GRASS
     - POPPY_PATCH
     - DANDELION_PATCH
     - BLUE_ORCHID_PATCH

@@ -31,6 +31,5 @@ slant:
 features:
   flora:
     - TALL_GRASS
-    - DRY_GRASS
     - POPPY_PATCH
     - DANDELION_PATCH

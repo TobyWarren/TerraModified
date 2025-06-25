@@ -33,8 +33,4 @@ features:
   preprocessors:
     - MUD_WATER
   flora:
-    - GRASS_DRY
     - SUGAR_CANE
-  processors:
-    - TALL_DRY_GRASS_MUD
-    - TALL_DRY_GRASS

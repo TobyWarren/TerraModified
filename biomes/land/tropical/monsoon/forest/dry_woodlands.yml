@@ -49,7 +49,6 @@ slant:
 features:
   flora:
     - GRASS
-    - DENSE_DRY_GRASS
     - SUBTROPICAL_BUSHES
     - FERNS
     - POPPY_PATCH
