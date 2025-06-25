@@ -1,0 +1,15 @@
+id: TROPICAL_DEEP_DEPTHS
+type: BIOME
+extends:
+  - TROPICAL_DEEP_OCEAN
+  - BASE
+color: $biomes/colors.yml:TROPICAL_DEEP_DEPTHS
+
+vanilla: minecraft:warm_ocean
+
+features:
+  preprocessors:
+    - UNDERWATER_SCULK_PATCHES
+    - UNDERWATER_SCULK_TENDRIL
+  trees:
+    - UNDERWATER_SCULK_UPWARD_TENDRIL
