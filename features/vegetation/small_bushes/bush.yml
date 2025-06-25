@@ -39,4 +39,4 @@ structures:
   distribution:
     type: CONSTANT
   structures:
-    - BLOCK:minecraft:dead_bush: 1
+    - BLOCK:minecraft:fern: 1
