@@ -1,0 +1,17 @@
+id: CARVING_OCEAN
+type: BIOME
+abstract: true
+
+carving:
+  sampler:
+    dimensions: 3
+    type: EXPRESSION
+    expression: $biomes/abstract/carving/carving_sampler_template.yml:expression
+    samplers: $biomes/abstract/carving/carving_sampler_template.yml:samplers
+    variables:
+      "<<":
+        - biomes/abstract/carving/carving_sampler_template.yml:variables
+      # Variable Overrides:
+      carvingMaxMode: 2 # Use ocean heightmap
+      spaghettiSurfaceBreak: -20 # Make spaghetti caves not break ocean floor
+      spaghettiSurfaceBreakTaper: 10
