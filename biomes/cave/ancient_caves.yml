@@ -13,13 +13,6 @@ palette:
   - << meta.yml:palette-bedrock
 
 features:
-  flora:
-    - ANCIENT_FLOWER_COVER
-  preprocessors:
-    - SUSPICIOUS_SAND_DEPOSITS
-    - SUSPICIOUS_GRAVEL_DEPOSITS
-  postprocessors:
-    - TRIAL_RUIN_REMNANTS
   landforms:
     - GREAT_BAOBAB_TREES
     - FOSSILS
