@@ -1,8 +1,0 @@
-id: SUSPICIOUS_GRAVEL_DEPOSIT
-type: ORE
-extends: ABSTRACT_DEPOSIT
-
-material: minecraft:suspicious_gravel
-
-replace:
-  - minecraft:gravel
