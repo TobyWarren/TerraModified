@@ -71,21 +71,3 @@ stages:
     from: island
     replace: hot-shallow-ocean
     to: island-coast
-  - type: BORDER
-    sampler:
-      type: CONSTANT
-    from: polar-vast-forest
-    replace: ocean
-    to: polar-vast-forest-coast
-  - type: BORDER
-    sampler:
-      type: CONSTANT
-    from: boreal-vast-forest
-    replace: ocean
-    to: boreal-vast-forest-coast
-  - type: BORDER
-    sampler:
-      type: CONSTANT
-    from: temperate-vast-forest
-    replace: ocean
-    to: temperate-vast-forest-coast

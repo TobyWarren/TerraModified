@@ -98,15 +98,6 @@ stages:
         - hot-island:              *tropicalWarm
         - hot-island:              *tropicalHot
       vast-forest:
-        - polar-vast-forest:                 *iceCap
-        - polar-vast-forest:                  *tundra
-        - polar-vast-forest:            *borealSnowy
-        - boreal-vast-forest:             *borealCold
-        - boreal-vast-forest:             *borealWarm
-        - boreal-vast-forest:              *borealHot
-        - temperate-vast-forest:   *temperateCold
-        - temperate-vast-forest:   *temperateWarm
-        - temperate-vast-forest:   *temperateHot
         - tropical-savanna-wet:    *tropicalCold
         - tropical-monsoon:        *tropicalWarm
         - tropical-rainforest:     *tropicalHot
