@@ -1,0 +1,2 @@
+str blockID = "minecraft:glow_lichen[";
+if (blockID != "minecraft:glow_lichen[up=false,down=false,north=false,east=false,south=false,west=false]") block(0, 0, 0, blockID, false);
