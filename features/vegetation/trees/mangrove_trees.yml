@@ -1,0 +1,44 @@
+id: MANGROVE_TREES
+type: FEATURE
+
+distributor:
+  type: PADDED_GRID
+  width: 7
+  padding: 3
+  salt: 7718
+
+locator:
+  type: OR
+  locators:
+    # Match air with mud below
+    - type: PATTERN
+      range:
+        min: ${meta.yml:ocean-level} + 1
+        max: ${meta.yml:ocean-level} + 4
+      pattern:
+        type: AND
+        patterns:
+          - type: MATCH_AIR
+            offset: 0
+          - type: MATCH
+            block: minecraft:mud
+            offset: -1
+    # Match water with any plantable block below
+    - type: PATTERN
+      range:
+        min: ${meta.yml:ocean-level} - 4
+        max: ${meta.yml:ocean-level} + 1
+      pattern:
+        type: AND
+        patterns:
+          - type: MATCH
+            block: minecraft:water
+            offset: 0
+          - type: MATCH_SET
+            blocks: $features/vegetation/meta.yml:aquatic-plantable-blocks
+            offset: -1
+
+structures:
+  distribution:
+    type: CONSTANT
+  structures: mangrove_tree_procedural
